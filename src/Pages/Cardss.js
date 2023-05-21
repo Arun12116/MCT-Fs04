@@ -8,7 +8,7 @@ const Cardss = ({Data}) => {
 
   return (
     <div>
-    <div className="Container" style={{ display: "flex", flexWrap: "wrap" , gap:"4rem" }}>
+    <div className="Container" style={{ display: "flex", flexWrap: "wrap" , gap:"4rem", justifyContent:"space-around" }}>
 
     {
       Data.map((items, id) => {

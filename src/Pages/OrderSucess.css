@@ -11,9 +11,13 @@
     justify-content: center;
 
 }
+.order-Body img{
+    width: 80%;
+    height: 95%;
+}
 .order-Body{
     width: 60vw;
-    height: 90vh;
+    height:auto;
     /* border: 2px solid red; */
     border-radius: 5px;
     text-align: center;

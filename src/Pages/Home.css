@@ -7,9 +7,7 @@
 .home-Container {
     width: 100%;
     height: 100vh;
-    /* display: flex;
-    flex-direction: column; */
-    /* border: 2px solid red; */
+
 }
 .home-Body-Container {
     display: flex;
@@ -81,23 +79,7 @@
  /* opacity: 0.5; */
     
 }
-.header{
-    width: 81.90vw;
-    height: 90vh;
-    
 
-    margin-left: 15rem;
-    
-
-}
-.heading p{
-    margin: 1rem;
-    font-size:1rem;
-}
-.heading h1{
- font-size:4rem;
- width: 30vw;
-}
 .btn-section input{
     width:18vw;
     height: 5vh;

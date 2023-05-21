@@ -12,7 +12,7 @@ const Cardss = ({Data}) => {
 
     {
       Data.map((items, id) => {
-        return <Card key={id} style={{width:'25rem', marginTop: "2rem", alignItems: "center", }}>
+        return <Card key={id} style={{width:'25rem', height:"30rem", marginTop:"2rem", alignItems: "center", }}>
           <Card.Img variant="top" src={items.image} style={{ width: "10vw", height: "20vh", marginTop: "1rem" }} />
           <Card.Body style={{ alignItems: "center", display: "flex", flexDirection: "column", justifyContent: "space-around" }}>
             <Card.Title>{items.title}</Card.Title>
